@@ -9,11 +9,7 @@
   
   <title>Frontend Mentor | Manage landing page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
 </head>
 <body>
   <!-- NavBar -->
@@ -37,13 +33,15 @@
 
     <!-- Hamburger Icon -->
     <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
-      <img src="images/icon-hamburger.svg" alt="">
+      <span class="hamburger-top"></span>
+      <span class="hamburger-middle"></span>
+      <span class="hamburger-bottom"></span>
     </button>
   </div>
 
   <!-- Mobile menu -->
   <div class="md:hidden">
-    <div id="menu" class="absolute flex flex-col items-center hidden
+    <div id="menu" class="absolute flex-col items-center hidden
      self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
       <a href="#">Pricing</a>
       <a href="#">Products</a>
@@ -317,6 +315,7 @@
       </div>
     </div>
   </footer>
+  <script src="js/script.js"></script>
 
   
 
