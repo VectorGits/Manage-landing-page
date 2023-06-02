@@ -603,10 +603,16 @@ video {
 
 .mt-32 {
   margin-top: 8rem;
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 }
 
 .block {
   display: block;
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 }
 
 .flex {
@@ -723,10 +729,16 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 }
 
 .self-end {
   align-self: flex-end;
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 }
 
 .rounded-full {
@@ -805,11 +817,17 @@ video {
   padding-bottom: 6rem;
 }
 
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 .pt-2 {
   padding-top: 0.5rem;
 }
@@ -872,6 +890,8 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 .drop-shadow-md {
   --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -900,6 +920,10 @@ body {
   }
 }
 
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 .hover\:bg-brightRedLight:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(12 88% 69% / var(--tw-bg-opacity));
