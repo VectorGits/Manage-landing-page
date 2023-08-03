@@ -9,6 +9,30 @@ body {
     background-position: 90% -25%;
 }
 
+/* Styling for the carousel container */
+.carousel-container {
+    width: 100%; /* Adjust the width as per your preference */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Styling for the carousel track */
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .card {
+    flex: 0 0 calc(100% / 3); /* Set each card to occupy 33.33% of the container width by default */
+    height: 150px; /* Adjust the height as per your preference */
+    background-color: #f0f0f0;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+
 
 
 #cta {
@@ -21,6 +45,14 @@ body {
         background-position: 50px -50px;
         background-size: 500px;
     }
+
+    .carousel-track {
+        flex-wrap: nowrap; /* Prevent cards from wrapping in mobile view */
+      }
+    
+      .card {
+        flex: 0 0 100%; /* Change to 100% width for mobile devices */
+      }
 
     #cta {
         background-image: url('../images/bg-simplify-section-mobile.svg');
